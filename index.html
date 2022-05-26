@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Forecast</title>
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <!-- <label for="place-search" class="search"></label> -->
+            <input type="text" class="search" placeholder="Enter Your Location">
+            <button class="btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="weather">
+            <h2 class="city">Weather in London</h2>
+            <h1 class="temperature"> &#176C</h1>
+            <div class="conditions">
+                <img class= "icon" src="https://openweathermap.org/img/wn/04n.png" alt="image">
+                <p class="description">Cloudy</p>
+            </div>
+            <h4 class="humidity">Humidity: 66%</h4>
+            <h4 class="wind">Wind: 3.6km/h</h4>
+            
+            <div class="sun">
+                <div class="sunrise">
+                    <img src="sunrise.png" alt="sunrise" width=50px>
+                    <p class="rise">sunrise</p>
+                </div>
+                <div class="sunset">
+                    <img src="sunset.png" alt="sunset" width=50px>
+                    <p class="set">sunset</p>
+                </div>
+            </div>
+
+        </div>
+    </div>    
+    <script src="script.js" defer></script>
+</body>
+</html>
